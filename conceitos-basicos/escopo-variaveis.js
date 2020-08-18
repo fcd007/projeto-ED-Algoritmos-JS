@@ -1,7 +1,18 @@
-var myVariable = `global`;
-myOtherVariable = `global`;
+var myVariable = "global";
+myOtherVariable = "global";
 
 function myFuntion() {
-    var myVariavle = `local`;
-    return myVariable;
+  var myVariable = "local";
+  return myVariable;
 }
+
+function myOtherFunction() {
+  var myVariable = "local";
+  return myVariable;
+}
+
+console.log(myVariable);
+console.log(myFuntion());
+console.log(myOtherVariable);
+console.log(myOtherFunction());
+console.log(myOtherVariable);
