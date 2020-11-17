@@ -51,4 +51,4 @@ console.log('typeof {name: john }: ', typeof {name: 'John' });
 //operador delete é suportado pelo Javascript
  var myObject = { firstName: 'Francisco', lastName: 'Claudeilton Dantas', age: 31 };
  delete myObject.age;
- console.log(myObject)
+ console.log('Name: ' + myObject.firstName + myObject.lastName)
