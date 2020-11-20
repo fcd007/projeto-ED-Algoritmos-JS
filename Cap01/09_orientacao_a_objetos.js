@@ -32,13 +32,11 @@ Book.prototype.printTitle = function(){
 
 book.printTitle();
 
-function Book2(title, pages, isbn) {
+function Book2(title, pages, isbn, technonoly) {
     this.title = title;
     this.pages = pages;
     this.isbn = isbn;
-    this.printIsbn = function() {
-        this.isbn;
-    };
+    this.technonoly = technonoly;
 }
 
-console.log(Book2.printIsbn());
+console.log(Book2);
