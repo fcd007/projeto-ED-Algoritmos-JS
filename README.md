@@ -8,7 +8,7 @@ This project use javascript/typescript | ECMAScript | Design Paterns
 
 In the project directory, you can run: 
 install the dependencies
-### `node /source/code.js or code.ts` 
+### `node /source/code.js` 
 
 For projects nodejs use open folder source
 ### `yarn or npm install`
