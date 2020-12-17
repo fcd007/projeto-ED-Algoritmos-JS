@@ -1,20 +1,19 @@
-function sayHello() {
-    console.log('Hello function!');
+const num = 50;
+function sum(num) {
+    for (let i = 1; i <= num; i++) {
+        if(i % 3 === 0)
+        {
+            console.log(`Fizz`);  
+        }
+        if(i % 5 === 0)
+        {
+            console.log(`Buzz`);  
+        }
+        if(i % 5 === 0 && i % 3 === 0)
+        {
+            console.log(`FizzBuzz`);  
+        }
+    }
 }
-//call function sayHello()
-sayHello();
 
-//functions com argumentos entrada
-function output(text) {
-    console.log(text);
-}
-//call function2 output(arg)
-output('Hello function2');
-
-//function com retorno de argumentos e entrada de dados
-function sum(number1, number2) {
-    return number1 + number2;
-}
-//call sum(2,5);
-var result = sum(2,5);
-console.log(`result is equal ${result}`);
+sum(50);
