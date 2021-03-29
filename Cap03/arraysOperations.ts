@@ -15,3 +15,16 @@ console.log(`Elemento removido do inicio ${elementFirst}`);
 const elementLast = numbers.pop() // remover e retornar o elemento
 console.log(`Array atual ${numbers}`);
 console.log(`Elemento removido do final ${elementLast}`);
+
+//adicionar ou remover elementos em locais específicos splice
+const arrayNumbersNew = [-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12]
+arrayNumbersNew.splice(5,3)
+console.log(`Array atual removido 2,3,4 = ${arrayNumbersNew}`);
+//vamos usar o splice para adicionar
+arrayNumbersNew.splice(5,0,2,3,4);
+console.log(`Array atual add 2,3,4 = ${arrayNumbersNew}`);
+
+//vamos ver o resultado do código abaixo
+arrayNumbersNew.splice(5,3,2,3,4); //bora lá
+console.log(`Array remove do 5 ao 3 elemento, e depois add 2,3,4 = ${arrayNumbersNew}`);
+//o splice remove 2,3 e 4 e depois adicionar com a operação
