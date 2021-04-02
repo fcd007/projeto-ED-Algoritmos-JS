@@ -2,7 +2,7 @@
 
 ### Livro Loiane 2ª Ed- Estrutura de dados e algoritmos com Javascript
 
-This project use javascript/typescript | ECMAScript | Design Paterns
+This project use javascript/typescript | ECMAScript | Design Patterns
 
 ### Available Scripts
 
